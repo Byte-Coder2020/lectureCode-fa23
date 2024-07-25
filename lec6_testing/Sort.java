@@ -10,8 +10,11 @@ public class Sort {
 		if (k == x.length) {
 			return;
 		}
+		// find the smallest element
 		int smallest = findSmallest(x, k);
+		// move it to the front(swap)
 		swap(x, k, smallest);
+		// selection sort for the rest(using recursion)
 		sort(x, k + 1);
 	}
 
