@@ -22,7 +22,7 @@ public class TestSort {
     /** Tests Sort.findSmallest.
      *  Note: The "smallest" string is the earliest alphabetical string.
      *  So "aardvark" comes before "zebra". */
-   /* @Test
+   @Test
     public void testFindSmallest() {
         String[] input = {"they", "changed", "the", "system"};
         int expected = 1;
@@ -31,7 +31,7 @@ public class TestSort {
         // If our code works, actual will equal expected
 
         assertEquals(expected, actual);
-    }*/
+    }
 
     @Test
     public void testSwap() {

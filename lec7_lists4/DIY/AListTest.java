@@ -1,7 +1,8 @@
 package lec7_lists4.DIY;
 
 import org.junit.Test;
-import static org.junit.Assert.*;
+
+import static org.junit.Assert.assertEquals;
 
 /** Tests the AList class.
  *  @author Josh Hug
