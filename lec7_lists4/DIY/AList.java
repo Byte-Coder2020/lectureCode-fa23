@@ -4,13 +4,23 @@ package lec7_lists4.DIY;
  *  in case you want to try to figure out how to write it yourself.
  *  After writing your methods, you can run the AListTest file.
  */
+
+// Example
+// size = 0
+// 9 0 0 0 0 0 0 0 0 0 0 0 0
+// 0 1 2 3 4 5 6 7 8 9
 public class AList {
+    int[] items;
+    int size;
     /** Creates an empty list. */
     public AList() {
+        items = new int[100];
+        size = 0;
     }
 
     /** Inserts X into the back of the list. */
     public void addLast(int x) {
+
     }
 
     /** Returns the item from the back of the list. */
